@@ -5,7 +5,7 @@ slug: hello-world
 type: introduction
 ---
 
-# Fuck You, World!
+# Hello World
 
 This is some sample content written in plain markdown.
 
