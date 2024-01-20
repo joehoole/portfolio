@@ -5,8 +5,8 @@ slug: hello-world
 type: introduction
 ---
 
-# Hello World
+# joe hoole
 
-This is some sample content written in plain markdown.
+coming soon
 
 You can start editing this file at `/src/posts/hello-world.md`
