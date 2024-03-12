@@ -13,6 +13,14 @@
 
 <div class="fixed top-4 left-8 text-4xl">
 	<h1><a href="/">{config.title}</a></h1>
+	<nav>
+		<a href="/">home</a>
+		<a href="/about">about</a>
+		<a href="/blog">blog</a>
+	</nav>
 </div>
 
+
+
 <slot />
+

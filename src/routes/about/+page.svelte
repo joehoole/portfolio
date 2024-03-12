@@ -1,24 +1,26 @@
 <h1>About</h1>
 
 <p>
-	Welcome to <code>/about</code>. This is a new "route".
+	the creator of this web page is joe hoole. 
+	</p>
+	<p>
+	designer, creative, director, producer, teacher, worker, radical, innovator, ceo, socialist, future thinker, trade union member & entrepenuer. all things to all people, depends whos asking, surviving the 21st century.
 </p>
 <p>
-	You can edit this content in
-	<code>src/routes/about/+page.svelte</code>.
+	hope you enjoy your stay
 </p>
-<ul>
-	All the routes follow the same pattern. For example:
-	<li>
-		<code>/about</code> is generated from <code>src/routes/about/+page.svelte</code>.
-	</li>
-	<li>
-		<code>/contact</code> is generated from <code>src/routes/contact/+page.svelte</code>.
-	</li>
-</ul>
+<p>
 
+</p>
 <p>
-	And if you want to add a new route, you can just add a new file in the <code
-		>src/routes/[your-route-name]/+page.svelte</code
-	> folder. A little weird. But it works.
+	<a href="/about">linkedin</a>
+</p>
+<p>
+	<a href="/about">instagram</a>
+</p>
+<p>
+	<a href="/about">bluesky</a>
+</p>
+<p>
+	<a href="/about">mastodon</a>
 </p>

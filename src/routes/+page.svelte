@@ -6,18 +6,15 @@
 
 <div id="container">
 	<div class="about">
+		<h2>
+			UNDER CONSTRUCTION
+		</h2>
 		<p>
-			Hello! This is a portfolio skeleton template built with Svelte. You can start editing the
-			content by editing the files in the <code>/src</code>
-			folder.
-		</p>
-		<p>
-			All of the files and code for this website are in <code>/src</code> folder along with new
-			pages like <a href="/about">this one</a>
+			if you're interested in knowing more <a href="/about">about me tap here</a>
 		</p>
 	</div>
 	<section>
-		<h2>Recent works</h2>
+		<h2>menu</h2>
 		<hr />
 		<!-- Looping through the list of posts with svelte's {#each} syntax ref: https://svelte.dev/tutorial/each-blocks -->
 		<div class="posts">

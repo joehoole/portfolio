@@ -13,30 +13,28 @@
 }
 
 body {
-	background-color: #473f63;
-	background-image: repeating-linear-gradient(
-		-45deg,
-		rgba(255, 255, 255, 0.25),
-		rgba(255, 255, 255, 0.25) 1px,
-		transparent 1px,
-		transparent 6px
-	);
-	background-size: 4px 4px;
-	color: white;
-	font-family: 'Nova Mono', monospace;
+	background-color: #ffffff;
+
+	background-size: 5px 5px;
+	color: rgb(0, 0, 0);
+	font-family: 'Helvetica';
 	padding: 10em;
+	text-shadow: #111111;
 }
 #title {
 	z-index: 1;
 	position: fixed;
 	top: 20px;
 	right: 20px;
+	color: rgb(69, 69, 49);
+	font-family: 'Helvetica', 'bold';
+
 }
 #title nav {
 	margin-top: 3em;
 }
 a {
-	color: white;
+	color: blue;
 	transition: all 0.4s ease-in-out;
 }
 a:hover {
@@ -55,6 +53,18 @@ nav ul {
 	gap: 4em;
 }
 
+nav {
+	position: fixed;
+	display: flex;
+	top: 20px;
+	right: 20px;
+	gap: 1em;
+	padding: 1em;
+	z-index: 2;
+	margin: 0 0 1em 0;
+	border-radius: var(--border-radius);
+}
+
 @media screen and (max-width: 768px) {
 	body {
 		padding: 3em;
@@ -71,3 +81,23 @@ code {
 	background-color: #262627;
 	font-family: 'Nova Mono', monospace;
 }
+
+
+/*
+
+BACKUPS FOR MESSIN
+body {
+	background-color: #473f63;
+	background-image: repeating-linear-gradient(
+		-45deg,
+		rgba(255, 255, 255, 0.25),
+		rgba(255, 255, 255, 0.25) 1px,
+		transparent 1px,
+		transparent 6px
+	);
+	background-size: 4px 4px;
+	color: white;
+	font-family: 'Nova Mono', monospace;
+	padding: 10em;
+}
+*/
