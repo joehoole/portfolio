@@ -4,6 +4,8 @@
 
 	// Importing the global css
 	import '../global.css';
+
+	
 </script>
 
 <svelte:head>
@@ -11,8 +13,8 @@
 	<meta name="description" content={config.description} />
 </svelte:head>
 
-<div class="fixed top-4 left-8 text-4xl">
-	<h1><a href="/">{config.title}</a></h1>
+<div>
+	<h1  class="fixed top-4 left-8 text-4xl"><a href="/">{config.title}</a></h1>
 	<nav>
 		<a href="/">home</a>
 		<a href="/about">about</a>
@@ -23,4 +25,6 @@
 
 
 <slot />
+
+
 

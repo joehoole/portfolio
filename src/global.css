@@ -11,6 +11,13 @@
 	margin: 0;
 	padding: 0;
 }
+/*html, * {
+    cursor: none !important;
+  }
+  a:hover {
+    cursor: none;
+  }*/
+
 
 body {
 	background-color: #ffffff;

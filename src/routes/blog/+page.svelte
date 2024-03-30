@@ -1,27 +1,19 @@
 <script>
-    export let articles = [];
-    console.log("Articles:", articles);
-
-  </script>
+ // export let data; // Ensuring a default structure
+  export let data;
   
-  <div id="container">
-    <div class="about">
-      <p>thoughts available on substack</p>
-    </div>
-    <section>
-      <h2>recent posts</h2>
-      <hr />
-      <div class="posts">
-        {#each articles as { title, link }}
-          <a href={link} target="_blank">
-            <div class="post">
+</script>
+
+<div id="container">
+  <h1>blog posts</h1>
+  {#each data.articles as { title, link }}
+      <a href={link} target="_blank">
+          <div class="post">
               <h3>{title}</h3>
-            </div>
-          </a>
-        {/each}
-      </div>
-    </section>
-  </div>
+          </div>
+      </a>
+  {/each}
+</div>
   
   <style>
     .posts {
