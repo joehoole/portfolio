@@ -18,6 +18,12 @@ html, * {
     cursor: none;
   }
 
+  /* Override cursor settings for small pc screens */
+@media (max-width: 768px) {
+    html, *, a:hover {
+        cursor: auto !important;
+    }
+}
 
 body {
 	background-color: #ffffff;
@@ -39,6 +45,7 @@ body {
 }
 #title nav {
 	margin-top: 3em;
+	
 }
 a {
 	color: blue;
@@ -58,6 +65,7 @@ nav ul {
 	list-style: none;
 	display: flex;
 	gap: 4em;
+	
 }
 
 nav {
@@ -70,8 +78,23 @@ nav {
 	z-index: 2;
 	margin: 0 0 1em 0;
 	border-radius: var(--border-radius);
+
 }
 
+ul menu{
+		position: fixed;
+		display: flex;
+		top: 20px;
+		right: 20px;
+		gap: 1em;
+		padding: 1em;
+		z-index: 2;
+		margin: 0 0 1em 0;
+		border-radius: var(--border-radius);
+	
+	
+	
+}
 @media screen and (max-width: 768px) {
 	body {
 		padding: 3em;

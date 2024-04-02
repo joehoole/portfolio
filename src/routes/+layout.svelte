@@ -53,14 +53,12 @@ onMount(() => {
 	<meta name="description" content={config.description} />
 </svelte:head>
 
-<div>
+<nav>
 	<h1  class="fixed top-4 left-8 text-4xl"><a href="/">{config.title}</a></h1>
-	<nav>
 		<a href="/">home</a>
 		<a href="/about">about</a>
 		<a href="/blog">blog</a>
-	</nav>
-</div>
+</nav>
 
 
 
@@ -89,5 +87,14 @@ onMount(() => {
 }
 	circle {
 		fill: #ff3e00;
+	}
+	    /* Hide cursor on small screens */
+		@media (max-width: 768px) {
+        svg {
+            display: none;
+        }
+    }
+	a{
+		
 	}
 </style>

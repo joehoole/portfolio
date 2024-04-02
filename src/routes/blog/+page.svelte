@@ -32,10 +32,7 @@
       flex-direction: column;
       gap: 3em;
     }
-    a {
-      text-decoration: none;
-      color: black; 
-    }
+
     a:hover {
       text-decoration: underline;
     }
