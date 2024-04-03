@@ -25,6 +25,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"he": "^1.2.0",
 		"mdsvex": "^0.10.6",
 		"mdsvex-relative-images": "^1.0.3",
 		"node-fetch": "^3.3.2",

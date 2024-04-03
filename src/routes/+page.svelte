@@ -15,7 +15,8 @@
 		"AT THE VAGUE INTERSECTION OF ART AND TECHNOLOGY",
 		"TEACHER",
 		"LECTURER",
-		"INTERACTION DESIGNER"
+		"INTERACTION DESIGNER",
+		"GAMEDEV"
 	  ];
 	  const colors = ["#0477BF", "#F2B705", "#A6290D"];
 	  initializeTypewriter('typewriter', textSets, colors);
@@ -32,7 +33,6 @@
 	#typewriter {
     @apply relative;
     @apply mx-auto;
-    @apply p-5;
     @apply text-12xl;
     @apply font-mono;
     @apply text-white;

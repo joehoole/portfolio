@@ -1,18 +1,28 @@
 <script>
+ import he from 'he';
  // export let data; // Ensuring a default structure
-  export let data;
   
+ export let data;
+ 
+ data.articles = data.articles.map(article => ({
+    ...article,
+    description: article.description ? he.decode(article.description) : ''
+  }));
 </script>
 
 <div id="container">
   <h2>Blog Posts</h2>
-  {#each data.articles as { title, link }}
-      <a href={link} target="_blank">
-          <div class="post">
-              <h3>{title}</h3>
-          </div>
-      </a>
-  {/each}
+  {#each data.articles as { title, link, description, pubDate }}
+  <a href={link} target="_blank">
+    <div class="post">
+      <div>
+        <h3>{title}</h3>
+        <p class="description">{description}</p>
+        <p class="date">{pubDate}</p>
+      </div>
+    </div>
+  </a>
+{/each}
 </div>
   
   <style>

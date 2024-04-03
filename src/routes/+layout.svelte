@@ -95,7 +95,5 @@ onMount(() => {
             display: none;
         }
     }
-	a{
-		
-	}
+
 </style>
