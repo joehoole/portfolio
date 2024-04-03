@@ -9,7 +9,8 @@
 		"MAKER",
 		"USER",
 		"LET'S TALK FUTURE",
-		"AT THE VAGUE INTERSECTION OF ART AND TECHNOLOGY"
+		"AT THE VAGUE INTERSECTION OF ART AND TECHNOLOGY",
+		"TEACHER"
 	  ];
 	  const colors = ["#0477BF", "#F2B705", "#A6290D"];
 	  initializeTypewriter('typewriter', textSets, colors);
@@ -42,7 +43,7 @@
 }
 @media (max-width: 1024px) {
     #typewriter {
-        font-size: 3rem; /* Equivalent to Tailwind's text-9xl */
+        font-size: 5rem; 
     }
 }
 	.typewriter-cursor {
