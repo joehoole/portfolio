@@ -26,8 +26,7 @@ html, * {
 }
 
 body {
-	background-color: #ffffff;
-
+	background: color #f2e2c4;;
 	background-size: 5px 5px;
 	color: rgb(0, 0, 0);
 	font-family: 'Helvetica';
@@ -48,8 +47,10 @@ body {
 	
 }
 a {
-	color: blue;
+	color: #0477bf;
 	transition: all 0.4s ease-in-out;
+	font-family: deuterium-variable, sans-serif;
+	font-variation-settings: "wght" 600;
 }
 a:hover {
 	color: black;
@@ -94,6 +95,18 @@ ul menu{
 	
 	
 	
+}
+h2{
+	color: #a6290d;
+	transition: all 0.4s ease-in-out;
+	font-family: deuterium-variable, 'Heavy', sans-serif;
+	font-variation-settings: "wght" 400;
+
+}
+p {
+	color: #a6a6a6;
+	transition: all 0.4s ease-in-out;
+
 }
 @media screen and (max-width: 768px) {
 	body {

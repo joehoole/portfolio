@@ -1,4 +1,4 @@
-<h1>About</h1>
+<h2>About</h2>
 
 <p>
 	the creator of this web page is joe hoole. 

@@ -55,9 +55,9 @@ onMount(() => {
 
 <nav>
 	<h1  class="fixed top-4 left-8 text-4xl"><a href="/">{config.title}</a></h1>
-		<a href="/">home</a>
-		<a href="/about">about</a>
-		<a href="/blog">blog</a>
+		<a href="/projects">Projects</a>
+		<a href="/about">About</a>
+		<a href="/blog">Blog</a>
 </nav>
 
 
@@ -86,7 +86,7 @@ onMount(() => {
     height: 100vh;
 }
 	circle {
-		fill: #ff3e00;
+		fill: #f2b705;
 	}
 	    /* Hide cursor on small screens */
 		@media (max-width: 768px) {

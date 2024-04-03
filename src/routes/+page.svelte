@@ -1,61 +1,53 @@
 <script>
-	const postsModules = import.meta.glob('../posts/*.md', { eager: true });
-
-	const posts = Object.values(postsModules);
-</script>
-
-
-
-<div id="container">
-
-	
-
-	<div class="about">
-		<h2>
-			UNDER CONSTRUCTION
-		</h2>
-		<p>
-			if you're interested in knowing more <a href="/about">about me tap here</a>
-		</p>
-	</div>
-	<section>
-		<h2>menu</h2>
-		<hr />
-		<!-- Looping through the list of posts with svelte's {#each} syntax ref: https://svelte.dev/tutorial/each-blocks -->
-		<div class="posts">
-			{#each posts as post}
-				<a href={post.metadata.slug}>
-					<div class="grid grid-cols-3">
-						<h3>
-							{post.metadata.title}
-						</h3>
-						<span>
-							{post.metadata.type}
-						</span>
-						<span>{post.metadata.date}</span>
-					</div>
-				</a>
-			{/each}
-		</div>
-	</section>
-</div>
-
-<!-- All the styling within .svelte files is scoped. Meaning any CSS in this file doesn't effect rest of the files -->
-<style>
-	.posts {
-		display: flex;
-		flex-direction: column;
-		gap: 2em;
+	import { onMount } from 'svelte';
+	import { initializeTypewriter } from '../lib/typewriter';
+  
+	onMount(() => {
+	  const textSets = [
+		"BOM DIA MEU AMIGO",
+		"DESIGNER",
+		"MAKER",
+		"USER",
+		"LET'S TALK FUTURE",
+		"AT THE VAGUE INTERSECTION OF ART AND TECHNOLOGY"
+	  ];
+	  const colors = ["#0477BF", "#F2B705", "#A6290D"];
+	  initializeTypewriter('typewriter', textSets, colors);
+	});
+  </script>
+  
+  <div id="typewriter" class="text-2xl font-semibold"></div>
+  
+  <style>
+	@keyframes blink-cursor {
+		50% { opacity: 0; }
 	}
-	.post {
-		display: flex;
-		justify-content: space-between;
-		gap: 2em;
-		align-items: center;
+  
+	#typewriter {
+    @apply relative;
+    @apply mx-auto;
+    @apply p-5;
+    @apply text-12xl;
+    @apply font-mono;
+    @apply text-white;
+    font-family: 'deuterium-variable', sans-serif;
+    font-variation-settings: "wght" 700;
+	line-height: 1;
+	    /* Hyphenation */
+	overflow-wrap: break-word;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+@media (max-width: 1024px) {
+    #typewriter {
+        font-size: 3rem; /* Equivalent to Tailwind's text-9xl */
+    }
+}
+	.typewriter-cursor {
+		animation: blink-cursor 1s step-end infinite;
 	}
-	#container {
-		display: flex;
-		flex-direction: column;
-		gap: 3em;
-	}
-</style>
+
+  </style>
+  

@@ -5,7 +5,7 @@
 </script>
 
 <div id="container">
-  <h1>blog posts</h1>
+  <h2>Blog Posts</h2>
   {#each data.articles as { title, link }}
       <a href={link} target="_blank">
           <div class="post">
