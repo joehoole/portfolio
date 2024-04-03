@@ -3,14 +3,19 @@
 	import { initializeTypewriter } from '../lib/typewriter';
   
 	onMount(() => {
+
+	const hours = new Date().getHours();
+    const greeting = hours < 12 ? 'GOOD MORNING!' : 'GOOD AFTERNOON!'; // Assuming a morning/afternoon distinction for the greeting
+
 	  const textSets = [
-		"BOM DIA MEU AMIGO",
 		"DESIGNER",
 		"MAKER",
 		"USER",
 		"LET'S TALK FUTURE",
 		"AT THE VAGUE INTERSECTION OF ART AND TECHNOLOGY",
-		"TEACHER"
+		"TEACHER",
+		"LECTURER",
+		"INTERACTION DESIGNER"
 	  ];
 	  const colors = ["#0477BF", "#F2B705", "#A6290D"];
 	  initializeTypewriter('typewriter', textSets, colors);

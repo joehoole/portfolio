@@ -53,8 +53,8 @@ onMount(() => {
 	<meta name="description" content={config.description} />
 </svelte:head>
 
-<nav>
-	<h1  class="fixed top-4 left-8 text-4xl"><a href="/">{config.title}</a></h1>
+<nav class="flex items-centre justify-between">
+	<h1  class="text-4xl"><a href="/">{config.title}</a></h1>
 		<a href="/projects">Projects</a>
 		<a href="/about">About</a>
 		<a href="/blog">Blog</a>
@@ -87,6 +87,7 @@ onMount(() => {
 }
 	circle {
 		fill: #f2b705;
+		mix-blend-mode: multiply;
 	}
 	    /* Hide cursor on small screens */
 		@media (max-width: 768px) {

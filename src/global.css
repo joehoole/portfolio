@@ -70,10 +70,10 @@ nav ul {
 }
 
 nav {
-	position: fixed;
+	position: sticky;
 	display: flex;
+	align-items:center;
 	top: 20px;
-	right: 20px;
 	gap: 1em;
 	padding: 1em;
 	z-index: 2;
@@ -104,8 +104,10 @@ h2{
 
 }
 p {
-	color: #a6a6a6;
+	color: #261D11;
 	transition: all 0.4s ease-in-out;
+	font-family: deuterium-variable, sans-serif;
+	font-variation-settings: "wght" 200;
 
 }
 @media screen and (max-width: 768px) {
