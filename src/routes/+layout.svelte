@@ -53,7 +53,7 @@ onMount(() => {
 	<meta name="description" content={config.description} />
 </svelte:head>
 
-<nav class="flex items-centre justify-between">
+<nav class="flex items-centre justify-between bg-white">
 	<h1  class="text-4xl"><a href="/">{config.title}</a></h1>
 		<a href="/projects">Projects</a>
 		<a href="/about">About</a>
@@ -77,6 +77,7 @@ onMount(() => {
 </svg>
 
 <style>
+
 	svg {
 	position: fixed;
     z-index: 1000;

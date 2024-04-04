@@ -75,7 +75,7 @@ nav {
 	align-items:center;
 	top: 20px;
 	gap: 1em;
-	padding: em;
+	padding-right: 1em;
 	z-index: 2;
 	margin: 0 0 1em 0;
 	border-radius: var(--border-radius);

@@ -11,12 +11,12 @@
 		"DESIGNER",
 		"MAKER",
 		"USER",
-		"LET'S TALK FUTURE",
 		"AT THE VAGUE INTERSECTION OF ART AND TECHNOLOGY",
 		"TEACHER",
 		"LECTURER",
 		"INTERACTION DESIGNER",
-		"GAMEDEV"
+		"GAMEDEV",
+		"ETHICS ADVISOR"
 	  ];
 	  const colors = ["#0477BF", "#F2B705", "#A6290D"];
 	  initializeTypewriter('typewriter', textSets, colors);
