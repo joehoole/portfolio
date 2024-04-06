@@ -8,9 +8,9 @@
     const greeting = hours < 12 ? 'GOOD MORNING!' : 'GOOD AFTERNOON!'; // Assuming a morning/afternoon distinction for the greeting
 
 	  const textSets = [
-		"DESIGNER",
-		"MAKER",
-		"USER",
+		"CREATIVE TECHNOLOGIST",
+		"3D MODELLER",
+		"USER EXPERIENCE DESIGNER",
 		"AT THE VAGUE INTERSECTION OF ART AND TECHNOLOGY",
 		"TEACHER",
 		"LECTURER",
