@@ -58,8 +58,11 @@ a:hover {
 }
 
 img {
-	max-width: 400px;
-	max-height: 400px;
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 nav ul {
@@ -82,6 +85,12 @@ nav {
 
 }
 
+h1 {
+	color: #a6290d;
+	font-family: deuterium-variable, sans-serif;
+	font-variation-settings: "wght" 400;
+}
+
 ul menu{
 		position: fixed;
 		display: flex;
@@ -99,7 +108,7 @@ ul menu{
 h2{
 	color: #a6290d;
 	transition: all 0.4s ease-in-out;
-	font-family: deuterium-variable, 'Heavy', sans-serif;
+	font-family: deuterium-variable, sans-serif;
 	font-variation-settings: "wght" 400;
 
 }

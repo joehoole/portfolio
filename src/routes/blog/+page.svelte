@@ -11,7 +11,7 @@
 </script>
 
 <div id="container">
-  <h2>Blog Posts</h2>
+  <h1>Blog Posts</h1>
   {#each data.articles as { title, link, description, pubDate }}
   <a href={link} target="_blank">
     <div class="post">

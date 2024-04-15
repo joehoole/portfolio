@@ -1,13 +1,13 @@
-<h2>About</h2>
+<h1>About</h1>
 
 <p>
-	the creator of this web page is joe hoole. 
+	The creator of this web page is Joe Hoole. 
 	</p>
 	<p>
-	designer, creative, director, producer, teacher, worker, radical, innovator, ceo, socialist, future thinker, trade union member & entrepenuer. all things to all people, depends whos asking, surviving the 21st century.
+	Designer, creative, director, producer, teacher, worker, radical, innovator, ceo, socialist, future thinker, trade union member & entrepenuer. all things to all people, all depends whos asking, surviving the 21st century.
 </p>
 <p>
-	hope you enjoy your stay
+	Enjoy your stay
 </p>
 <p>
 

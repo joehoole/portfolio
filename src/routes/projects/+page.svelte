@@ -11,11 +11,11 @@
 	
 
 	<div class="about">
-		<h2>
-			UNDER CONSTRUCTION
-		</h2>
+		<h1>
+			Under Construction
+		</h1>
 		<p>
-			if you're interested in knowing more <a href="/about">about me tap here</a>
+			Still getting a lot of this put together. If you're interested in knowing more <a href="/about">about me tap here</a>
 		</p>
 	</div>
 	<section>
