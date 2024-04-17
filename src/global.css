@@ -3,7 +3,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 /* Resetting margin and padding */
 
 * {
@@ -53,7 +52,7 @@ a {
 	font-variation-settings: "wght" 600;
 }
 a:hover {
-	color: black;
+	color: blue;
 	background-color: white;
 }
 
@@ -112,9 +111,15 @@ h2{
 	font-variation-settings: "wght" 400;
 
 }
+
+h3{
+	color: #0477bf;
+	transition: all 0.4s ease-in-out;
+	font-family: deuterium-variable, sans-serif;
+	font-variation-settings: "wght" 400;
+}
 p {
 	color: #261D11;
-	transition: all 0.4s ease-in-out;
 	font-family: deuterium-variable, sans-serif;
 	font-variation-settings: "wght" 200;
 

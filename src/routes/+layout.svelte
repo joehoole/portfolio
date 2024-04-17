@@ -9,6 +9,8 @@
 
 	import { onMount } from 'svelte';
 
+
+
 let coords = spring(
 	{ x: 50, y: 50 },
 	{
@@ -77,7 +79,7 @@ onMount(() => {
 </svg>
 
 <style>
-
+	
 	svg {
 	position: fixed;
     z-index: 1000;
@@ -96,5 +98,6 @@ onMount(() => {
             display: none;
         }
     }
+
 
 </style>

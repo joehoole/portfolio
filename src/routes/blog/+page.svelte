@@ -1,5 +1,6 @@
 <script>
  import he from 'he';
+ import{fly} from 'svelte/transition';
  // export let data; // Ensuring a default structure
   
  export let data;
@@ -10,7 +11,7 @@
   }));
 </script>
 
-<div id="container">
+<div id="container" transition:fly={{ y: 100, duration: 500 }}>
   <h1>Blog Posts</h1>
   {#each data.articles as { title, link, description, pubDate }}
   <a href={link} target="_blank">

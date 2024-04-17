@@ -2,11 +2,13 @@
 	const postsModules = import.meta.glob('../../posts/*.md', { eager: true });
 
 	const posts = Object.values(postsModules);
+
+	import {fly} from 'svelte/transition';
 </script>
 
 
 
-<div id="container">
+<div id="container"transition:fly={{ y: 100, duration: 500 }}>
 
 	
 
@@ -29,10 +31,10 @@
 						<h3>
 							{post.metadata.title}
 						</h3>
-						<span>
+						<h3>
 							{post.metadata.type}
-						</span>
-						<span>{post.metadata.date}</span>
+						</h3>
+						<h3>{post.metadata.date}</h3>
 					</div>
 				</a>
 			{/each}

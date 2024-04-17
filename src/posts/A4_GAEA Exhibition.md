@@ -17,13 +17,19 @@ The posters were designed around a very CompArt punk aesthetic based on the earl
 
 
 <div class="lists">
-<p><img src="./images/GAEA/GAEA2.jpeg" alt="Introduction to artwork 'OASIS'" /></p>
-<p><img src="./images/GAEA/GAEA3.jpeg" alt="Introduction to artwork 'Algorithmic Fingerprint'"/></p>
+
+<div><img src="./images/GAEA/GAEA2.jpeg" alt="Introduction to artwork 'OASIS'" /></div>
+
+<div><img src="./images/GAEA/GAEA5.jpeg" alt="Introduction to artwork 'Algorithmic Bias'"/></div>
+
 </div>
 
 <style>
     .lists {display: grid;
-    grid-template-columns: 1fr 1fr
-    
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+
     }
+
 </style>

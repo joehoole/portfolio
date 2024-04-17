@@ -1,5 +1,12 @@
-<h1>About</h1>
+<script>
+	 import{fly} from 'svelte/transition';
+</script>
 
+
+
+<div transition:fly={{ y: 100, duration: 500 }}>
+
+<h1>About</h1>
 <p>
 	The creator of this web page is Joe Hoole. 
 	</p>
@@ -7,7 +14,7 @@
 	Designer, creative, director, producer, teacher, worker, radical, innovator, ceo, socialist, future thinker, trade union member & entrepenuer. all things to all people, all depends whos asking, surviving the 21st century.
 </p>
 <p>
-	Enjoy your stay
+	Any questions please email joe.hoole@gmail.com
 </p>
 <p>
 
@@ -24,3 +31,4 @@
 <p>
 	<a href="/about">mastodon</a>
 </p>
+</div>
