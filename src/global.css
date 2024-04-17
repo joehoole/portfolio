@@ -129,7 +129,7 @@ p {
 }
 @media screen and (max-width: 768px) {
 	body {
-		padding: 3em;
+		padding: 1em;
 	}
 }
 
