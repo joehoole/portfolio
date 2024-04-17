@@ -117,6 +117,9 @@ h3{
 	transition: all 0.4s ease-in-out;
 	font-family: deuterium-variable, sans-serif;
 	font-variation-settings: "wght" 400;
+	@media (max-width: 768px) {
+		font-size: small;
+		}
 }
 p {
 	color: #261D11;
