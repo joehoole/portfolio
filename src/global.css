@@ -6,6 +6,7 @@
 /* Resetting margin and padding */
 
 * {
+
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
@@ -25,9 +26,9 @@ html, * {
 }
 
 body {
-	background: color #f2e2c4;;
-	background-size: 5px 5px;
-	color: rgb(0, 0, 0);
+	background-color: #f9ecd6;
+
+	color: #a6290d;
 	font-family: 'Helvetica';
 	padding: 10em;
 	text-shadow: #111111;
@@ -65,6 +66,8 @@ img {
 }
 
 nav ul {
+	background-color: #f2e2c4;
+
 	list-style: none;
 	display: flex;
 	gap: 4em;
@@ -72,6 +75,8 @@ nav ul {
 }
 
 nav {
+	background-color: #f9ecd6;
+
 	position: sticky;
 	display: flex;
 	align-items:center;
@@ -122,7 +127,7 @@ h3{
 		}
 }
 p {
-	color: #261D11;
+	color: black;
 	font-family: deuterium-variable, sans-serif;
 	font-variation-settings: "wght" 200;
 

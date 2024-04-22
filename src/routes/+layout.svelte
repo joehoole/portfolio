@@ -55,7 +55,7 @@ onMount(() => {
 	<meta name="description" content={config.description} />
 </svelte:head>
 
-<nav class="flex items-centre justify-between bg-white">
+<nav class="flex items-centre justify-between">
 	<h1  class="text-4xl"><a href="/">{config.title}</a></h1>
 		<a href="/projects">Projects</a>
 		<a href="/about">About</a>
