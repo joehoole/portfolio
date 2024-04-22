@@ -17,7 +17,7 @@
 	An ardent believer in the freedom of knowledge, Joe teaches digital tools to students aged 6 to 60 years old. Joe has taught on the Design Museum's digital design programme since 2017 and has taken ability to many heights, being part of red carpet events for the London Film Festival, and teaching online classes to schools as far reaching as Beijing University
 	 during the lockdown. He also recently began teaching on the Fine Arts: Computational Arts Bachelors programme at Camberwell College of Arts, part of the University of the Arts London. He is the founder of a Community Interest Corporation, Tinker Studios, that keeps to this commitment of teaching tech to all. 
 	<br> <br>
-	The convergence of design, education, and ethical decision making forms Joe's skillset, on top of all that he has a professional ability at 3d Modelling, and front end Web Development. He is a hobbyist games designer and has a full working knowledge of the Adobe Suite. </p>
+	The convergence of design, education, and ethical decision making forms Joe's skillset, on top of all that he has a professional ability at 3d Modelling, and front end Web Development. He is a hobbyist games designer with an interest in all things XR and has a full working knowledge of the Adobe Suite. </p>
 <p>
 	Any questions please email <a href="mailto:joe.hoole@gmail.com"> joe.hoole@gmail.com</a>
 </p>
