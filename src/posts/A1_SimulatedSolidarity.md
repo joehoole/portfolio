@@ -5,7 +5,7 @@ slug: simulated-solidarity
 type: Project
 ---
 
-# simulated solidarity
+# Simulated Solidarity
 
 Project initiated as part of masters in research into creative computing at the university of the arts london's creative computing campus in camberwell. the was displayed in Euston in London, as part of a group show with the rest of the [Autonomous Sheep](https://www.autonomous-sheep.com/) collective.
 
