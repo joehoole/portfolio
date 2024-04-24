@@ -21,7 +21,7 @@
 		</p>
 	</div>
 	<section>
-		<h2>menu</h2>
+		<h2>Menu</h2>
 		<hr />
 		<!-- Looping through the list of posts with svelte's {#each} syntax ref: https://svelte.dev/tutorial/each-blocks -->
 		<div class="posts">

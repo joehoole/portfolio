@@ -22,6 +22,14 @@ Project initiated as part of masters in research into creative computing at the 
     grid-template-columns: 2fr 2fr
     
     }
+          @media (max-width: 768px) {
+    .lists {
+      display: block; 
+    }
+    .lists > div {
+      margin-bottom: 20px; 
+    }
+  }
 </style>
 
 In April 2023, British technology news outlet, The Register, disclosed that the American intelligence technology corporation, Palantir, was under consideration to assist the government to break ongoing National Health Service strikes. However, the UK Government subsequently decided against employing Palantir's services, alluding prohibitive costs as the driver for this decision. Palantir's Foundry platform had been proposed for integration and had raised concerns regarding the handling of sensitive data. Notably, a project designated for "Strike Analysis" was explicitly mentioned in an official Parliamentary communique.
