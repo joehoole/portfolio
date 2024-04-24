@@ -1,6 +1,6 @@
 ---
 title: Tinker Studios
-date: 01-04-2019 - Now
+date: 01-04-2019 to Now
 slug: Tinker Studios
 type: Business Startup
 ---
