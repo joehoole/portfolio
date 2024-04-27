@@ -1,6 +1,6 @@
 ---
 title: Immersive Game Box
-date: 20-05-2022 to 20-11-2022
+date: March 2022 to November 2022
 slug: Immersive Game Box
 type: Contract Work
 ---

@@ -29,7 +29,6 @@ body {
 	background-color: #f9ecd6;
 
 	color: #a6290d;
-	font-family: 'Helvetica';
 	padding: 10em;
 	text-shadow: #111111;
 }
@@ -39,7 +38,6 @@ body {
 	top: 20px;
 	right: 20px;
 	color: rgb(69, 69, 49);
-	font-family: 'Helvetica', 'bold';
 
 }
 #title nav {
