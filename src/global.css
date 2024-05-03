@@ -126,6 +126,8 @@ p {
 	color: black;
 	font-family: deuterium-variable, sans-serif;
 	font-variation-settings: "wght" 200;
+	white-space: pre-line;
+	margin-bottom: 1em; 
 
 }
 @media screen and (max-width: 768px) {

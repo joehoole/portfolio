@@ -15,9 +15,6 @@ The area which I was designated was a stone coffin, the final resting place of a
 
 I used projection mapping to draw out the remaining gravestone. This involved using MadMapper and Blender to create a digital simulation of water, the aim of this to show how changes happen with the passage of time, and how water will engulf even this age old church someday.
 
-
-
-
 Exhibiting in a church posed some interesting questions. I'm not particularly religious, so the idea of patronage wasn't exactly my jam, however creating artworks on an object with such a massive history gave me cause for intrigue. The team behind the exhibition are a group of friends from Goldsmiths, few of them religious either, but all of them very excited by this 900 year old building.
 
 ![Image shows an exhumed grave which has a water like projection on top of it. The image here is lit.](./images/WaterBed/1123_2.jpeg)
