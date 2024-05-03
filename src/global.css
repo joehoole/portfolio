@@ -57,8 +57,7 @@ a:hover {
 img {
     display: block;
     float: none;
-
-    width: 100%;
+	width: 100%;
 }
 
 nav ul {
@@ -128,6 +127,7 @@ p {
 	font-variation-settings: "wght" 200;
 	white-space: pre-line;
 	margin-bottom: 1em; 
+	text-align: justify;
 
 }
 @media screen and (max-width: 768px) {
