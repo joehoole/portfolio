@@ -18,7 +18,9 @@ As with all new startups, this required being very agile & wearing a lot of hats
 
 Below is the UX design for the Tech Test Adventure which we made which was a way of teaching new on site employees how to interact with the gameboxes. Thinking about how to interact on such a large scale meant I had to wrap my head around Mixed Reality workflows, and I was introduced to the IGB Unity set up.
 
-![IGB Tech Test gif](./images/IGB/IGB.gif)
+
+<img src="./images/IGB/IGB.gif" alt="IGB Tech Test gif" width="10" style="float: left; margin-right: 10px !important;">
+
 
 
 

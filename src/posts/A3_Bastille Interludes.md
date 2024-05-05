@@ -5,8 +5,9 @@ slug: Bastille Interludes
 type: Commission
 ---
 
-![Animated GIF created from video, various different animations created for the band Bastille](./images/BastilleInterludes/bastille_interludes_02.gif)
+<img src="./images/BastilleInterludes/bastille_interludes_02.gif" alt="Animated GIF created from video, various different animations created for the band Bastille">
 
 # Bastille Interludes
 
-Set of animations commissioned during lockdown for an online performance for the band Bastille. Worked alongside Nic Ferguson Lee from [Backchat Productions](https://www.backchatproductions.co.uk/)
+Set of motion graphics commissioned during lockdown for an online performance for the band Bastille. Worked alongside Nic Ferguson Lee from [Backchat Productions](https://www.backchatproductions.co.uk/)
+
