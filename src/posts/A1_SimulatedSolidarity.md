@@ -34,17 +34,32 @@ Project initiated as part of Masters in Research into creative computing at the 
 
 In April 2023, British technology news outlet, The Register, disclosed that the American intelligence technology corporation, Palantir, was under consideration to assist the government to break ongoing National Health Service strikes. However, the UK Government subsequently decided against employing Palantir's services, alluding prohibitive costs as the driver for this decision. Palantir's Foundry platform had been proposed for integration and had raised concerns regarding the handling of sensitive data. Notably, a project designated for "Strike Analysis" was explicitly mentioned in an official Parliamentary communique.
 
-This project looks at this particular idea of simulation and how it's used against struggling communities, specifically trade union workers in unethical ways. During the research I studied a group of participants from a workplace that had just engaged in actions to forment a successful unionisation ballot in a space that previously didn't have union representation. Simulated Solidarity aimed to inform workers of good practices for unionising, and how and when to approach fellow workers. The piece was participant lead, and their direct experiences informed the software.
+Simulated Solidarity is an investigation of simulative practices in the workplace. It involved many different forms of research, both researching into workers within their workplaces, and practice based outcomes from artistic exploration.
+
+<img src="./images/SimulatedSolidarity/IMG_7670.jpg" alt="An image of the art piece at night from outside the gallery space." />
+
+# Improved Action Simulator
+
+During the research I studied a group of participants from a workplace that had just engaged in actions to forment a successful unionisation ballot in a space that previously didn't have union representation. Simulated Solidarity aimed to inform workers of good practices for unionising, and how and when to approach fellow workers. The piece was participant lead, and their direct experiences informed the software.
+
+This software was created in the game engine Unity and was modelled using Agent Based Modelling (ABM) through the Thomas Kilmann Conflict Instrument (TKI). Inspired by how ABM uses proximity for studying societal changes, I used it to represent how conversations happen around a workplace.
+
+<div class="lists">
+<img src="./images/SimulatedSolidarity/UnityGif1.gif" alt="Example of the simulation running, agents (represented by cubes) go about their daily work" />
 
 
+<img src="./images/SimulatedSolidarity/UnityGif2.gif" alt="Later in the simulation, ideas of the need for a trade union have started to spread" />
 
-![An image of the art piece at night from outside the gallery space.](./images/SimulatedSolidarity/IMG_7670.jpg)
+</div>
 
-Later I presented the project as an art piece, something which was not the core aim, however during my research I disovered the knowledge gap in the tools used by management when trying to prevent actions. To exhibit a tool which subverts high tech tools utilised by capital, I aimed to inform and educate viewers in ways that technology could be used ethically.
+Here we have the different agents battling out, white are non unionised workers, red are activists, yellow are management, green are recently unionised workers. Blue also represents the non unionisable workforce, imagined as people who had a bad experience in the past that wouldn't want to get involved.
+
+Exhibiting this piece was a way of showing how high tech tools are utilised by capital, by doing so in an unapologetically radical manner the mask slips from beneath the objectives of a lot of technology.
 
 <h2>The project subverts the use of simulative tools and proposes a fair alternative.</h2>
 
-![Animation of a point cloud created from street viewer of Bow Quarter, formerly the Bryant & May matchstick factory](./images/SimulatedSolidarity/Animation.gif)
+<img src="./images/SimulatedSolidarity/Animation.gif" alt="Animation of a point cloud created from street viewer of Bow Quarter, formerly the Bryant & May matchstick factory" />
+
 
 # Lost Futures
 
@@ -52,7 +67,7 @@ Another facet in this exploration of trade unions in the modern day I looked at 
 
 I used these futuristic feeling technologies, digital mapping and 3d modelling and present them on a CRT monitor to explore Mark Fisher's concept of Hauntology or Lost Futures. Lost futures is an idea that states within objects and architecture there is a version of a future that was being built before becoming subsumed by neoliberalism. Invoking these moments of trade union history which represent a group of people building a positive change for the future of those involved, and all workers, seems to counter our labour current, which becomes more and more removed from the hard won workers rights of the past.
 
-![Process of myself woring in the studio on a CRT monitor](./images/SimulatedSolidarity/IMG_1575.gif)
+<img src="./images/SimulatedSolidarity/IMG_1575.gif" alt="Process of myself woring in the studio on a CRT monitor" />
 
 # Bryant & May
 
