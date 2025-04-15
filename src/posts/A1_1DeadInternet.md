@@ -13,7 +13,7 @@ Embedded within the abstraction are fragments of recognizable websites (includin
 
 ![The piece on display at the Letharby Gallery](./images/DeadInternet/Dead_I.jpg)
 
-The project emerged from a brief by researchers from Masters Curation at Central Saint Martins (in partnership with the Archive of Destruction) to explore entropy within digital archiving. Using 3D modeling and glitch aesthetics, we reimagined archived websites as unstable, deteriorating objects—their data dissolving into noise. The CRT’s analog distortion was used as a hauntological motif, showing the ghosts that lie in the machines around us.
+The project emerged from a brief by researchers from Masters Curation at Central Saint Martins (in partnership with the Archive of Destruction) to explore entropy within digital archiving. Using 3D modeling and glitch aesthetics through TouchDesigner, we reimagined archived websites as unstable, deteriorating objects—their data dissolving into noise. The CRT’s analog distortion was used as a hauntological motif, showing the ghosts that lie in the machines around us.
 
 
 ![The piece on video in studio](./images/DeadInternet/Dead_I.gif)
