@@ -38,17 +38,18 @@ body {
 	top: 20px;
 	right: 20px;
 	color: rgb(69, 69, 49);
-
+	font-family: 'EB Garamond', serif !important;
+	font-weight: 800;
 }
 #title nav {
 	margin-top: 3em;
-	
+	font-family: 'EB Garamond', serif !important;
+	font-weight: 800;
 }
 a {
-	color: #0477bf;
-	transition: all 0.4s ease-in-out;
-	font-family: deuterium-variable, sans-serif;
-	font-variation-settings: "wght" 600;
+	font-family: 'Inter', sans-serif !important; /* Or your preferred sans-serif */
+	font-weight: 500; /* Slightly bolder for links */
+	color: #0066cc; /* Optional: Link color */
 }
 a:hover {
 	color: blue;
@@ -66,6 +67,7 @@ nav ul {
 	list-style: none;
 	display: flex;
 	gap: 4em;
+	
 	
 }
 
@@ -86,8 +88,10 @@ nav {
 
 h1 {
 	color: #a6290d;
-	font-family: deuterium-variable, sans-serif;
-	font-variation-settings: "wght" 400;
+	font-family: 'EB Garamond', serif !important;
+	font-weight: 800;
+	font-size: 2.5rem;
+	margin-bottom: 1rem;
 }
 
 ul menu{
@@ -107,24 +111,24 @@ ul menu{
 h2{
 	color: #a6290d;
 	transition: all 0.4s ease-in-out;
-	font-family: deuterium-variable, sans-serif;
-	font-variation-settings: "wght" 400;
+	font-family: 'EB Garamond', serif;
+	font-weight: 700;
 
 }
 
 h3{
 	color: #0477bf;
 	transition: all 0.4s ease-in-out;
-	font-family: deuterium-variable, sans-serif;
-	font-variation-settings: "wght" 400;
+	font-family: 'Inter', sans-serif;
+	font-weight: 400; /* Regular */
 	@media (max-width: 768px) {
 		font-size: small;
 		}
 }
 p {
 	color: black;
-	font-family: deuterium-variable, sans-serif;
-	font-variation-settings: "wght" 200;
+	font-family: 'Inter', sans-serif;
+	font-weight: 200; /* Regular */
 	white-space: pre-line;
 	margin-left: 10%;
 	margin-bottom: 1em; 
@@ -150,6 +154,11 @@ code {
 	background-color: #262627;
 	font-family: 'Nova Mono', monospace;
 }
+
+nav .s-7IPF32Wcq3s8 {
+	font-family: 'EB Garamond', serif !important;
+	font-weight: 1000;
+  }
 
 
 /*
