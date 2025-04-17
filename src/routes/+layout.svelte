@@ -56,10 +56,12 @@ onMount(() => {
 </svelte:head>
 
 <nav class="flex items-center justify-between">
-	<h1 class="text-4xl"><a href="/">{config.title}</a></h1>
-	<a href="/projects">Projects</a>
-	<a href="/about">About</a>
-	<a href="/blog">Blog</a>
+	<h1 class="text-4xl">
+	  <a href="/" style="font-family: 'deuterium-variable', sans-serif; font-variation-settings: 'wght' 700">{config.title}</a>
+	</h1>
+	<a href="/projects" style="font-family: 'deuterium-variable', sans-serif; font-variation-settings: 'wght' 700">Projects</a>
+	<a href="/about" style="font-family: 'deuterium-variable', sans-serif; font-variation-settings: 'wght' 700">About</a>
+	<a href="/blog" style="font-family: 'deuterium-variable', sans-serif; font-variation-settings: 'wght' 700">Blog</a>
   </nav>
   
 
