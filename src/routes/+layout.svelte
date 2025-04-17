@@ -57,9 +57,9 @@ onMount(() => {
 
 <nav class="flex items-center justify-between">
 	<h1 class="text-4xl"><a href="/">{config.title}</a></h1>
-	<a href="/projects" style="font-family: 'EB Garamond', serif !important; font-weight: 800; text-decoration: none;">Projects</a>
-	<a href="/about" style="font-family: 'EB Garamond', serif !important; font-weight: 800; text-decoration: none;">About</a>
-	<a href="/blog" style="font-family: 'EB Garamond', serif !important; font-weight: 800; text-decoration: none;">Blog</a>
+	<a href="/projects">Projects</a>
+	<a href="/about">About</a>
+	<a href="/blog">Blog</a>
   </nav>
   
 
